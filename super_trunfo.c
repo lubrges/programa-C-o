@@ -4,7 +4,7 @@ int main() {
 
     // Identação de variáveis 1
     
-    int População1, Pontos_Turisticos1;
+    int Populacao1, Pontos_Turisticos1;
     float Área_em_km²1, PIB1;
     char Estado1 [50], Carta1 [50], Cidade1 [50];
 
