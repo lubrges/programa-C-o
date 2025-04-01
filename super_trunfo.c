@@ -5,7 +5,7 @@ int main() {
     // Identação de variáveis 1
     
     int Populacao1, Pontos_Turisticos1;
-    float Area_em_km²1, PIB1;
+    float Area_em_km21, PIB1;
     char Estado1 [50], Carta1 [50], Cidade1 [50];
 
     // Inserção de dados de propriedade 1
@@ -24,7 +24,7 @@ int main() {
     scanf (" %d", Populacao1);
 
     printf ("Digite a Área em km² de sua Carta: \n");
-    scanf (" %f", &Area_em_km²1);
+    scanf (" %f", &Area_em_km21);
 
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB1);
@@ -35,7 +35,7 @@ int main() {
     // Identação de variáveis 2
 
     int Populacao2, Pontos_Turisticos2;
-    float Area_em_km²2, PIB2;
+    float Area_em_km22, PIB2;
     char Estado2[50], Carta2[50], Cidade2[50];
 
     // Inserção de dados de propriedade 2
@@ -54,7 +54,7 @@ int main() {
     scanf (" %d", &Populacao2);
 
     printf ("Digite a Área em km² de sua Carta: \n");
-    scanf (" %f", &Area_em_km²2);
+    scanf (" %f", &Area_em_km22);
 
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB2);
@@ -69,7 +69,7 @@ int main() {
     printf ("Código da Carta: %s\n", Carta1);
     printf ("Nome da Cidade: %s\n", Cidade1);
     printf ("Populacao: %d\n", Populacao1);
-    printf ("Area_em_km²: %f\n", Area_em_km²1);
+    printf ("Area_em_km²: %f\n", Area_em_km21);
     printf ("PIB: %f\n", PIB1);
     printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos1);
 
@@ -80,7 +80,7 @@ int main() {
     printf ("Código da Carta: %s\n", Carta2);
     printf ("Nome da Cidade: %s\n", Cidade2);
     printf ("Populacao: %d\n", Populacao2);
-    printf ("Area_em_km²: %f\n", Area_em_km²2);
+    printf ("Area_em_km²: %f\n", Area_em_km22);
     printf ("PIB: %f\n", PIB2);
     printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos2);
 
