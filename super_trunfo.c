@@ -4,7 +4,7 @@ int main() {
 
     // Identação de variáveis 1
     
-    int População1, Pontos_Turísticos1;
+    int População1, Pontos_Turisticos1;
     float Área_em_km²1, PIB1;
     char Estado1 [50], Carta1 [50], Cidade1 [50];
 
@@ -29,12 +29,12 @@ int main() {
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB1);
 
-    printf ("Digite o Número de Pontos Turísticos de sua Carta: \n");
-    scanf (" %d", &Pontos_Turísticos1);
+    printf ("Digite o Número de Pontos Turisticos de sua Carta: \n");
+    scanf (" %d", &Pontos_Turisticos1);
 
     // Identação de variáveis 2
 
-    int População2, Pontos_Turísticos2;
+    int População2, Pontos_Turisticos2;
     float Área_em_km²2, PIB2;
     char Estado2[50], Carta2[50], Cidade2[50];
 
@@ -59,8 +59,8 @@ int main() {
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB2);
 
-    printf ("Digite o Número de Pontos Turísticos de sua Carta: \n");
-    scanf (" %d", &Pontos_Turísticos2);
+    printf ("Digite o Número de Pontos Turisticos de sua Carta: \n");
+    scanf (" %d", &Pontos_Turisticos2);
 
     // Exibição de dados da carta 1
 
@@ -71,7 +71,7 @@ int main() {
     printf ("População: %d\n", População1);
     printf ("Área_em_km²: %f\n", Área_em_km²1);
     printf ("PIB: %f\n", PIB1);
-    printf ("Número de Pontos_Turísticos: %d\n", Pontos_Turísticos1);
+    printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos1);
 
     // Exibição de dados da carta 2
 
@@ -82,7 +82,7 @@ int main() {
     printf ("População: %d\n", População2);
     printf ("Área_em_km²: %f\n", Área_em_km²2);
     printf ("PIB: %f\n", PIB2);
-    printf ("Número de Pontos_Turísticos: %d\n", Pontos_Turísticos2);
+    printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos2);
 
 
     return 0;
