@@ -5,7 +5,7 @@ int main() {
     // Identação de variáveis 1
     
     int Populacao1, Pontos_Turisticos1;
-    float Área_em_km²1, PIB1;
+    float Area_em_km²1, PIB1;
     char Estado1 [50], Carta1 [50], Cidade1 [50];
 
     // Inserção de dados de propriedade 1
@@ -21,10 +21,10 @@ int main() {
     scanf (" %[^\n]", Cidade1);
 
     printf ("Digite a População de sua Carta: \n");
-    scanf (" %d", População1);
+    scanf (" %d", Populacao1);
 
     printf ("Digite a Área em km² de sua Carta: \n");
-    scanf (" %f", &Área_em_km²1);
+    scanf (" %f", &Area_em_km²1);
 
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB1);
@@ -34,8 +34,8 @@ int main() {
 
     // Identação de variáveis 2
 
-    int População2, Pontos_Turisticos2;
-    float Área_em_km²2, PIB2;
+    int Populacao2, Pontos_Turisticos2;
+    float Area_em_km²2, PIB2;
     char Estado2[50], Carta2[50], Cidade2[50];
 
     // Inserção de dados de propriedade 2
@@ -51,10 +51,10 @@ int main() {
     scanf (" %[^\n]", Cidade2);
 
     printf ("Digite a População de sua Carta: \n");
-    scanf (" %d", &População2);
+    scanf (" %d", &Populacao2);
 
     printf ("Digite a Área em km² de sua Carta: \n");
-    scanf (" %f", &Área_em_km²2);
+    scanf (" %f", &Area_em_km²2);
 
     printf ("Digite o Número PIB de sua Carta: \n");
     scanf (" %f", &PIB2);
@@ -68,8 +68,8 @@ int main() {
     printf ("Estado: %s\n", Estado1);
     printf ("Código da Carta: %s\n", Carta1);
     printf ("Nome da Cidade: %s\n", Cidade1);
-    printf ("População: %d\n", População1);
-    printf ("Área_em_km²: %f\n", Área_em_km²1);
+    printf ("Populacao: %d\n", Populacao1);
+    printf ("Area_em_km²: %f\n", Area_em_km²1);
     printf ("PIB: %f\n", PIB1);
     printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos1);
 
@@ -79,8 +79,8 @@ int main() {
     printf ("Estado: %s\n", Estado2);
     printf ("Código da Carta: %s\n", Carta2);
     printf ("Nome da Cidade: %s\n", Cidade2);
-    printf ("População: %d\n", População2);
-    printf ("Área_em_km²: %f\n", Área_em_km²2);
+    printf ("Populacao: %d\n", Populacao2);
+    printf ("Area_em_km²: %f\n", Area_em_km²2);
     printf ("PIB: %f\n", PIB2);
     printf ("Número de Pontos_Turisticos: %d\n", Pontos_Turisticos2);
 
